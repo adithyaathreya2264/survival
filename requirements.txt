@@ -1,0 +1,12 @@
+# Core simulation, GA, and hand-rolled deep learning code (through Stage 3)
+# is pure Python -- zero dependencies. These are only needed for:
+#   - matplotlib, pillow: rendering the plots/GIFs in README.md
+#   - pytest: running tests/
+matplotlib==3.10.9
+pillow==12.2.0
+pytest==9.0.3
+
+# Not required by anything above -- only reference_dqn_torch.py (Phase 2's
+# external-benchmark reference DQN) needs it. Install separately:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# torch==2.14.0+cpu
