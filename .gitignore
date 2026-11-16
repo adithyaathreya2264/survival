@@ -29,3 +29,7 @@ dist/
 *.egg-info/
 stage3.txt
 data/
+
+IMPROVEMENTS.md
+PHASE_REPORT.md
+ROADMAP.md
