@@ -28,7 +28,9 @@ build/
 dist/
 *.egg-info/
 stage3.txt
-data/
+data/*
+!data/plots/
+!data/plots/**
 
 IMPROVEMENTS.md
 PHASE_REPORT.md
